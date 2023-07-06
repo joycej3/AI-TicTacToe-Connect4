@@ -1,43 +1,31 @@
-# Project Title
+# AI TicTacToe & Connect 4
+This repository contains the implementation of an AI that plays Connect 4 and TicTacToe. The AI is capable of playing using several strategies like minimax, Q-learning, and a smart random selection. The code leverages the pygame library for game visualization. 
 
+# Getting Started
+Follow the steps below to run the project locally:
 
-## Description
+## Prerequisites
 
+To run this project, you need to have Python installed on your system. If you don't have it, you can download it from the [official Python website](https://www.python.org/). 
+The code also requires the following Python libraries: numpy, random, pygame, sys, math, collections, and tkinter. If you don't have these libraries installed, you can install them using pip.
 
-## Table of Contents
+To run the programm locally, the repo needs to be cloned. This can be done by entering in the following command into the terminal:
+git clone https://github.com/joycej3/AI-TicTacToe-Connect4
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Acknowledgments](#acknowledgments)
-- [License](#license)
+### Installing Python Libraries
 
-## Installation
+Here are the commands to install the necessary libraries:
 
+pip install numpy
+pip install pygame
 
-## Usage
-[Explain how to use your project, including any specific commands or configurations.]
+## Runinng the Code
+### Tic Tac Toe
+Change the hardcoded values in the top of the tictactoe.py file to determine the behaviour of the program.This can be done by commenting out the undesired player starategy and then including the desired one by uncommenting it. The number of games played and the reinforced learning algorithm used by each player can be changed here
 
-Contributing
-[Specify guidelines for contributing to your project, including instructions on how to submit bug reports, feature requests, or pull requests.]
+To run the code, type pyton tictactoe.py in the terminal
 
-## License
-[Include license information for your project.]
+### Connect 4
+Change the hardcoded values in the top of the connect4.py file to determine the behaviour of the program. This can be done by commenting out the undesired player starategy and then including the desired one by uncommenting it. The number of games played and the reinforced learning algorithm used by each player can be changed here
 
-## Authors
-[List the names or usernames of the authors or contributors involved in the project.]
-
-## Acknowledgments
-[Mention any individuals, organizations, or resources that you would like to acknowledge for their contributions or inspiration.]
-
-
-
-To Run
-    python connect4.py
-    python tictactaoe.py
-
-variables at the top of these pages can be changed to decide strategy
-
-
-
-
-
+To run the code, type pyton tictactoe.py in the terminal
